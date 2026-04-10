@@ -2,118 +2,18 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-10T10:50:13 IST" name="Cogmento CRM" finished-at="2026-04-10T10:51:19 IST" duration-ms="66330">
+  <suite started-at="2026-04-10T13:09:16 IST" name="Cogmento CRM" finished-at="2026-04-10T13:09:43 IST" duration-ms="27622">
     <groups>
     </groups>
-    <test started-at="2026-04-10T10:50:13 IST" name="tc4" finished-at="2026-04-10T10:50:34 IST" duration-ms="20783">
+    <test started-at="2026-04-10T13:09:16 IST" name="tc3" finished-at="2026-04-10T13:09:42 IST" duration-ms="26519">
       <class name="testLayer.LoginPageTest">
-        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@2e005c4b]" started-at="2026-04-10T10:50:22 IST" name="validateLoginFunctionality" finished-at="2026-04-10T10:50:27 IST" duration-ms="5639" status="PASS">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@74e52ef6]" started-at="2026-04-10T13:09:28 IST" name="validateLoginFunctionality" finished-at="2026-04-10T13:09:33 IST" duration-ms="4489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginFunctionality -->
       </class> <!-- testLayer.LoginPageTest -->
       <class name="BaseLayer.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@694abbdc]" started-at="2026-04-10T10:50:14 IST" name="setup" finished-at="2026-04-10T10:50:22 IST" duration-ms="8071" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[headless]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@694abbdc]" started-at="2026-04-10T10:50:28 IST" name="tearDown" finished-at="2026-04-10T10:50:34 IST" duration-ms="6427" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- BaseLayer.BaseTest -->
-    </test> <!-- tc4 -->
-    <test started-at="2026-04-10T10:50:13 IST" name="tc1" finished-at="2026-04-10T10:50:35 IST" duration-ms="21595">
-      <class name="testLayer.LoginPageTest">
-        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@28eaa59a]" started-at="2026-04-10T10:50:21 IST" name="validateLoginFunctionality" finished-at="2026-04-10T10:50:25 IST" duration-ms="4112" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionality -->
-      </class> <!-- testLayer.LoginPageTest -->
-      <class name="BaseLayer.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@3911c2a7]" started-at="2026-04-10T10:50:14 IST" name="setup" finished-at="2026-04-10T10:50:21 IST" duration-ms="7410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@3911c2a7]" started-at="2026-04-10T10:50:26 IST" name="tearDown" finished-at="2026-04-10T10:50:35 IST" duration-ms="8889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- BaseLayer.BaseTest -->
-    </test> <!-- tc1 -->
-    <test started-at="2026-04-10T10:50:13 IST" name="tc5" finished-at="2026-04-10T10:50:35 IST" duration-ms="21517">
-      <class name="testLayer.LoginPageTest">
-        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@359f7cdf]" started-at="2026-04-10T10:50:18 IST" name="validateLoginFunctionality" finished-at="2026-04-10T10:50:27 IST" duration-ms="8749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionality -->
-      </class> <!-- testLayer.LoginPageTest -->
-      <class name="BaseLayer.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@4f18837a]" started-at="2026-04-10T10:50:14 IST" name="setup" finished-at="2026-04-10T10:50:18 IST" duration-ms="4277" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@4f18837a]" started-at="2026-04-10T10:50:27 IST" name="tearDown" finished-at="2026-04-10T10:50:35 IST" duration-ms="7364" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- BaseLayer.BaseTest -->
-    </test> <!-- tc5 -->
-    <test started-at="2026-04-10T10:50:13 IST" name="tc2" finished-at="2026-04-10T10:50:34 IST" duration-ms="20829">
-      <class name="testLayer.LoginPageTest">
-        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@47af7f3d]" started-at="2026-04-10T10:50:22 IST" name="validateLoginFunctionality" finished-at="2026-04-10T10:50:27 IST" duration-ms="4941" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionality -->
-      </class> <!-- testLayer.LoginPageTest -->
-      <class name="BaseLayer.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@74e52303]" started-at="2026-04-10T10:50:14 IST" name="setup" finished-at="2026-04-10T10:50:21 IST" duration-ms="7832" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[incognito]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@74e52303]" started-at="2026-04-10T10:50:27 IST" name="tearDown" finished-at="2026-04-10T10:50:34 IST" duration-ms="7197" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- BaseLayer.BaseTest -->
-    </test> <!-- tc2 -->
-    <test started-at="2026-04-10T10:50:13 IST" name="tc3" finished-at="2026-04-10T10:51:19 IST" duration-ms="66330">
-      <class name="testLayer.LoginPageTest">
-        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@661972b0]" started-at="2026-04-10T10:51:17 IST" name="validateLoginFunctionality" finished-at="2026-04-10T10:51:18 IST" duration-ms="1202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateLoginFunctionality -->
-      </class> <!-- testLayer.LoginPageTest -->
-      <class name="BaseLayer.BaseTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@3bb9a3ff]" started-at="2026-04-10T10:50:14 IST" name="setup" finished-at="2026-04-10T10:51:17 IST" duration-ms="63415" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@62ddbd7e]" started-at="2026-04-10T13:09:16 IST" name="setup" finished-at="2026-04-10T13:09:28 IST" duration-ms="11990" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,11 +24,111 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@3bb9a3ff]" started-at="2026-04-10T10:51:18 IST" name="tearDown" finished-at="2026-04-10T10:51:19 IST" duration-ms="1068" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@62ddbd7e]" started-at="2026-04-10T13:09:34 IST" name="tearDown" finished-at="2026-04-10T13:09:42 IST" duration-ms="8133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- BaseLayer.BaseTest -->
     </test> <!-- tc3 -->
+    <test started-at="2026-04-10T13:09:16 IST" name="tc1" finished-at="2026-04-10T13:09:43 IST" duration-ms="27329">
+      <class name="testLayer.LoginPageTest">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@13c9d689]" started-at="2026-04-10T13:09:21 IST" name="validateLoginFunctionality" finished-at="2026-04-10T13:09:36 IST" duration-ms="15540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- testLayer.LoginPageTest -->
+      <class name="BaseLayer.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@59474f18]" started-at="2026-04-10T13:09:16 IST" name="setup" finished-at="2026-04-10T13:09:20 IST" duration-ms="4107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@59474f18]" started-at="2026-04-10T13:09:39 IST" name="tearDown" finished-at="2026-04-10T13:09:43 IST" duration-ms="4406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseLayer.BaseTest -->
+    </test> <!-- tc1 -->
+    <test started-at="2026-04-10T13:09:16 IST" name="tc2" finished-at="2026-04-10T13:09:43 IST" duration-ms="27334">
+      <class name="testLayer.LoginPageTest">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@7eac9008]" started-at="2026-04-10T13:09:25 IST" name="validateLoginFunctionality" finished-at="2026-04-10T13:09:38 IST" duration-ms="12314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- testLayer.LoginPageTest -->
+      <class name="BaseLayer.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@1fa121e2]" started-at="2026-04-10T13:09:16 IST" name="setup" finished-at="2026-04-10T13:09:25 IST" duration-ms="8957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[incognito]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@1fa121e2]" started-at="2026-04-10T13:09:38 IST" name="tearDown" finished-at="2026-04-10T13:09:43 IST" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseLayer.BaseTest -->
+    </test> <!-- tc2 -->
+    <test started-at="2026-04-10T13:09:16 IST" name="tc4" finished-at="2026-04-10T13:09:43 IST" duration-ms="27333">
+      <class name="testLayer.LoginPageTest">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@3857f613]" started-at="2026-04-10T13:09:25 IST" name="validateLoginFunctionality" finished-at="2026-04-10T13:09:35 IST" duration-ms="10126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- testLayer.LoginPageTest -->
+      <class name="BaseLayer.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@489115ef]" started-at="2026-04-10T13:09:16 IST" name="setup" finished-at="2026-04-10T13:09:25 IST" duration-ms="8561" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@489115ef]" started-at="2026-04-10T13:09:39 IST" name="tearDown" finished-at="2026-04-10T13:09:43 IST" duration-ms="4364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseLayer.BaseTest -->
+    </test> <!-- tc4 -->
+    <test started-at="2026-04-10T13:09:16 IST" name="tc5" finished-at="2026-04-10T13:09:43 IST" duration-ms="27622">
+      <class name="testLayer.LoginPageTest">
+        <test-method signature="validateLoginFunctionality()[pri:0, instance:testLayer.LoginPageTest@79079097]" started-at="2026-04-10T13:09:21 IST" name="validateLoginFunctionality" finished-at="2026-04-10T13:09:37 IST" duration-ms="16940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctionality -->
+      </class> <!-- testLayer.LoginPageTest -->
+      <class name="BaseLayer.BaseTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:BaseLayer.BaseTest@3bf7ca37]" started-at="2026-04-10T13:09:16 IST" name="setup" finished-at="2026-04-10T13:09:20 IST" duration-ms="4245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BaseLayer.BaseTest@3bf7ca37]" started-at="2026-04-10T13:09:39 IST" name="tearDown" finished-at="2026-04-10T13:09:43 IST" duration-ms="4659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BaseLayer.BaseTest -->
+    </test> <!-- tc5 -->
   </suite> <!-- Cogmento CRM -->
 </testng-results>
