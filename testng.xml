@@ -1,0 +1,42 @@
+<suite name="Cogmento CRM" thread-count="5" parallel="tests" >
+
+	<listeners>
+		<listener class-name="utilityLayer.AnnotationsTransformer"></listener>
+		<listener class-name="utilityLayer.TestListener"></listener>
+	</listeners>
+	<test name="tc1">
+		<parameter name="browsername" value="chrome"></parameter>
+		<classes>
+			<class name="BaseLayer.BaseTest"></class>
+			<class name="testLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+	<test name="tc2">
+		<parameter name="browsername" value="incognito"></parameter>
+		<classes>
+			<class name="BaseLayer.BaseTest"></class>
+			<class name="testLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+	<test name="tc3">
+		<parameter name="browsername" value="firefox"></parameter>
+		<classes>
+			<class name="BaseLayer.BaseTest"></class>
+			<class name="testLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+	<test name="tc4">
+		<parameter name="browsername" value="headless"></parameter>
+		<classes>
+			<class name="BaseLayer.BaseTest"></class>
+			<class name="testLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+	<test name="tc5">
+		<parameter name="browsername" value="edge"></parameter>
+		<classes>
+			<class name="BaseLayer.BaseTest"></class>
+			<class name="testLayer.LoginPageTest"></class>
+		</classes>
+	</test>
+</suite>
