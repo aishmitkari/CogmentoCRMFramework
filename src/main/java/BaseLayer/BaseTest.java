@@ -19,7 +19,12 @@ public class BaseTest {
 	{
 		DriverFactory.initBrowser(browsername);
 		DriverManager.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		DriverManager.getDriver().manage().window().maximize();
+		
+		if(!browsername.equalsIgnoreCase("headless")) {
+		    //driver.manage().window().maximize();
+			DriverManager.getDriver().manage().window().maximize();
+
+		}
 		DriverManager.getDriver().get(ConfigReaderUtils.readProperty("URL"));
 	}
 
